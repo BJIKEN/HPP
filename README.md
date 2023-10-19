@@ -17,9 +17,8 @@ The rules for handling collisions at grid locations are as follows:
 Unlike in methods found in more complex LGA, collusions of three and four particles even if head on, do not result in any change to the particles directions. This is because it is not possible to have more than one particle exiting a grid location in the same direction. And in the case of 4 particles entering, the result would be 4 particles leaving anyway regardless so there is no point calculating anything, just let the particles go through.
 
 
-The following GIF taken from the HPP wikipedia article (available at https://en.wikipedia.org/wiki/HPP_model) may help at explaining this concept.
-
-![HPP GIF](https://commons.wikimedia.org/wiki/File:HPP_small.gif#/media/File:HPP_small.gif)
+The following GIF taken from the HPP wikipedia article (available at https://en.wikipedia.org/wiki/HPP_model) may help at explaining this concept. (if it decides to work! otherwise available at: https://upload.wikimedia.org/wikipedia/commons/4/45/HPP_small.gif)
+![](https://upload.wikimedia.org/wikipedia/commons/4/45/HPP_small.gif)
 
 ## My implementation
 For my own implementation I use three classes: LatSite, Sandbox and Main.  
@@ -54,5 +53,6 @@ I am unlikely to polish this project up and add additional features though if I 
 - Sort out the buttons and simulation in regards to their scaling. Currently the mousedrag which allows users to place particles into the simulation is slightly offset.
 - Add more functionality, the ability to change the radius of the particle draw on tool via a button, remove particles and walls etc.
 - Add a torus geometry canvas (where if a particle goes off the top it comes back in from the bottom and likewise if leaves to the left, enters through the right.
+
 
   
