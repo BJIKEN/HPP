@@ -19,7 +19,7 @@ Unlike in methods found in more complex LGA, collusions of three and four partic
 
 The following GIF and image taken from the HPP wikipedia article (available at https://en.wikipedia.org/wiki/HPP_model) may do a better job at explaining this concept.
 
-![HPP GIF](https://en.wikipedia.org/wiki/HPP_model#/media/File:HPP_small.gif)
+![alt text](https://en.wikipedia.org/wiki/HPP_model#/media/File:HPP_small.gif)
 ![HPP Collision image](https://en.wikipedia.org/wiki/HPP_model#/media/File:HppModelExamples.jpg)
 
 ## My implementation
