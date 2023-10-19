@@ -17,10 +17,9 @@ The rules for handling collisions at grid locations are as follows:
 Unlike in methods found in more complex LGA, collusions of three and four particles even if head on, do not result in any change to the particles directions. This is because it is not possible to have more than one particle exiting a grid location in the same direction. And in the case of 4 particles entering, the result would be 4 particles leaving anyway regardless so there is no point calculating anything, just let the particles go through.
 
 
-The following GIF and image taken from the HPP wikipedia article (available at https://en.wikipedia.org/wiki/HPP_model) may do a better job at explaining this concept.
+The following GIF taken from the HPP wikipedia article (available at https://en.wikipedia.org/wiki/HPP_model) may help at explaining this concept.
 
 ![HPP GIF](https://commons.wikimedia.org/wiki/File:HPP_small.gif#/media/File:HPP_small.gif)
-![HPP Collision image](https://en.wikipedia.org/wiki/HPP_model#/media/File:HppModelExamples.jpg)
 
 ## My implementation
 For my own implementation I use three classes: LatSite, Sandbox and Main.  
